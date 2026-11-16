@@ -1,0 +1,14 @@
+{
+  "title": "Lab 9 - Using Your Functions",
+  "cases": [
+    {
+      "type": "header",
+      "name": "Header is filled in"
+    },
+    {
+      "type": "comments",
+      "name": "Code is commented",
+      "min": 5
+    }
+  ]
+}
