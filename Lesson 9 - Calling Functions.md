@@ -88,20 +88,19 @@ print("You have a student named Billy in your class, his grade is currently 90%"
 billy_lates = int(input("How many times was Billy late this week? "))
 billy_grade = late_calculator(90, billy_lates)
 
-if billy_grade != None:
-    # Showing Billy's new grade
-    print(f"Billy's new grade is: {billy_grade}%")
 
-    # Applying one late to his grade
-    print("Oh no! It's raining today and Billy was late.")
-    billy_grade = late_calculator(billy_grade, 1)
-    print(f"Billy's new grade is: {billy_grade}%")
+# Showing Billy's new grade
+print(f"Billy's new grade is: {billy_grade}%")
 
-    # Checking if he's happy with his grade
-    if billy_grade < 70:
-        print("He will not be happy with his grade anymore")
-else:
-    print("Please enter a positive number of lates next time")
+# Applying one late to his grade
+print("Oh no! It's raining today and Billy was late.")
+billy_grade = late_calculator(billy_grade, 1)
+print(f"Billy's new grade is: {billy_grade}%")
+
+# Checking if he's happy with his grade
+if billy_grade < 70:
+    print("He will not be happy with his grade anymore")
+
 ```
 
 ## Why return?
